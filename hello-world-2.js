@@ -6,3 +6,6 @@ var obj = {
 function addDifference(Deductible deductible) {
   this.add(deductible);
 }
+function addDeductiblePolicyLimitToFloridaCoverage(Coverage coverage) {
+  this.add(coverage.difference);
+}
