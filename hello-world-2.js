@@ -9,3 +9,7 @@ function addDifference(Deductible deductible) {
 function addDeductiblePolicyLimitToFloridaCoverage(Coverage coverage) {
   this.add(coverage.difference);
 }
+function calculateCoveragePolicyLimit(Coverage coverage) {
+  this.remove(coverage.policy.policy);
+  return coverage.limit;
+}
